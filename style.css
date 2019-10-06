@@ -1,0 +1,31 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.carousel {
+    height: calc(100% - 60px);
+}
+.carousel-inner {
+    height: 100%;
+}
+img {
+    height: 100%;
+    background-size: cover;
+}
+.this {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.psuedo::first-line {
+    color: red;
+}
+.psuedo::first-letter {
+    color: blue;
+}
+.psuedo::before {
+    content: "I will survive!";
+}
+.psuedo::after {
+    content: "LOL XD";
+}
